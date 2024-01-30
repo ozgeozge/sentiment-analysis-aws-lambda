@@ -30,7 +30,7 @@ The jupyter notebook file `train_sentiment_analysis.ipynb` contains text process
 
 ### 1. Using AWS SAM CLI Local for testing a serverless application locally
  
-The step-by-step explanation about using SAM local for running our lambda function locally is [here](commands.md).
+I explained step-bys-step how to use SAM CLI for running a lambda function locally [here](commands.md).
 
 
 ### 2. Creating AWS Lambda Function
