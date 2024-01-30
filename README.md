@@ -21,7 +21,7 @@ This project uses movie reviews dataset in the NLTK library to train the sentime
 
 ## Model Training
 
-The jupyter notebook file `train_sentiment_analysis.ipynb` contains text processing and training sentiment classification model. The model is saved in a *.pickle* file which will be used for prediction later.
+The jupyter notebook file `train_sentiment_analysis.ipynb` contains text processing and training sentiment classification model. The model is saved as *sa_classifier.pickle* file which will be used for prediction later. Place the pickle file in the same directory as the lambda handler. In this project, it should be under the hello_world directory.
 
 ## The *lambda_handler* function
  The *lambda_handler* function is located in hello_world/app.py that takes the parameters *event* and *context*. *“event”* contains the entire payload of the API call. We look in the "body" value of the event. The function sends the review data in the "body" into get_sentiment and then returns the sentiment value to the caller.
