@@ -12,6 +12,7 @@ You will find following operations to build, deploy and test a serverless applic
 ## Prerequisites
 
 - Python 3.11
+- Jupyter Notebook
 - NLTK (python library)
 - Docker
 
